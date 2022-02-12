@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+.btns-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 80px;
+    margin-left: 80px;
+}
+
+.btns {
+    display: flex;
+    position: relative;
+    gap: 20px;
+}
+
+/* txt styling */
+
+.btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    border-radius: 12px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #151515;
+}
+
+/*BTN colors*/
+
+.green-border {
+    border: 2px solid #92C064;
+    background-color: #fff;
+}
+
+.green-btn {
+    color: #fff;
+    border: 2px solid #46760A;
+    background: #92C064;
+}
+
+.grey-btn {
+    color:  #151515;
+    background: #F5F5F5;
+    border: none;
+}
+
+.white-btn {
+    background: #FFFFFF;
+    border: none;
+}
+
+/* btns h and w */
+
+.big-btn {
+    width: 148px;
+    height: 56px;
+    box-sizing: border-box;
+}
+
+.bigger-btn {
+    width: 170px;
+    height: 56px;
+}
+
+.big-btn2 {
+    width: 84px;
+    height: 48px;
+}
+
+.bigger-btn2 {
+    width: 106px;
+    height: 47px;
+}
+
+.bigger-btn3 {
+    width: 98px;
+    height: 36px;
+}
+
+.big-btn3 {
+    width: 76px;
+    height: 36px;
+}
